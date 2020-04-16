@@ -7,15 +7,15 @@
   
   <title>1 java基础---helloworld | python技术学习</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="[HelloWorld]分别使用命令行和eclipse运行第一个 HelloWorld 程序 [面向对象]设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫 [变量]变量类型，命名规则，类型转换">
+  <meta name="description" content="[HelloWorld]分别使用命令行和eclipse运行第一个 HelloWorld 程序 [面向对象]设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫 [变量]变量类型，命名规则，类型转换 &#x2F;&#x2F;import com.sun.xml.internal.ws.message.MimeAttachmentSet; &#x2F;&#x2F;import com.sun.org.apache.xerces.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="1 java基础---helloworld">
 <meta property="og:url" content="http://yoursite.com/2020/04/12/1%20java%E5%9F%BA%E7%A1%80---helloworld/index.html">
 <meta property="og:site_name" content="python技术学习">
-<meta property="og:description" content="[HelloWorld]分别使用命令行和eclipse运行第一个 HelloWorld 程序 [面向对象]设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫 [变量]变量类型，命名规则，类型转换">
+<meta property="og:description" content="[HelloWorld]分别使用命令行和eclipse运行第一个 HelloWorld 程序 [面向对象]设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫 [变量]变量类型，命名规则，类型转换 &#x2F;&#x2F;import com.sun.xml.internal.ws.message.MimeAttachmentSet; &#x2F;&#x2F;import com.sun.org.apache.xerces.">
 <meta property="og:locale" content="zh">
 <meta property="article:published_time" content="2020-04-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2020-04-15T15:07:17.162Z">
+<meta property="article:modified_time" content="2020-04-16T14:13:32.658Z">
 <meta property="article:author" content="Zhiyuan">
 <meta name="twitter:card" content="summary">
   
@@ -99,11 +99,121 @@
         <h2 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="[HelloWorld]"></a>[HelloWorld]</h2><p>分别使用命令行和eclipse运行第一个 HelloWorld 程序</p>
 <h2 id="面向对象"><a href="#面向对象" class="headerlink" title="[面向对象]"></a>[面向对象]</h2><p>设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫</p>
 <h2 id="变量"><a href="#变量" class="headerlink" title="[变量]"></a>[变量]</h2><p>变量类型，命名规则，类型转换</p>
+<p>//import com.sun.xml.internal.ws.message.MimeAttachmentSet;</p>
+<p>//import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;<br>//<br>//import java.util.Scanner;</p>
+<p>//public class HelloWorld {<br>////    int i=1;<br>////    int j=i;<br>//    public void method1(){<br>//        int i=5;<br>//        System.out.println(i);<br>//        {<br>//            System.out.println(i);<br>//            int j=6;<br>//            System.out.println(j);<br>//        }<br>//        System.out.println(j);<br>//    }<br>//    public void method2(){<br>//        System.out.println(i);<br>//    }<br>//    int j=i;<br>//    public static void main(String[] args) {<br>        // System.out.println(“hello world”);<br>        // byte b=1;<br>        // short s=200;<br>        // int i=300;<br>        // long l=400;<br>        // byte b2=200;</p>
+<pre><code>// char c=&apos;中&apos;;
+// char只能放一个字符，超过一个字符就会产生错误
+// char c2=&apos;中国&apos;;
+// char c3=&apos;ab&apos;;
+// double d=123.45;
+// float f=54.321;
+// float f2=54.321f;
+
+// boolean b1=true;
+// boolean b2=false;
+// boolean b3=1;
+//
+// String str=&quot;Hello Java&quot;;
+//
+// float b=3.14f;
+// float c=2.769343f;
+// int day=365;
+// int time=12;
+// char eat=&quot;吃&quot;;
+// boolean b4=false;
+// String no=&quot;不可描述&quot;;
+// long val =26L;
+// int decVal=26;
+// int hexVal=0x1a;
+// int oxVal=032;
+// int binVal=0b11010;
+// System.out.println(binVal);
+// float f1=123.4F;
+// double d1=123.4;
+//// double d2=1.234e2;
+// String name=&quot;盖伦&quot;;
+// char a=&apos;C&apos;;
+//
+// //以下是转义字符
+// char tab=&apos;\t&apos;; //制表符
+// char carriageReturn=&apos;\r&apos;; //回车
+// char newLine=&apos;\n&apos;; //换行
+// char doubleQuote=&apos;\&quot;&apos;; //双引号
+// char singleQuote=&apos;\&apos;&apos;; //单引号
+// char backslash=&apos;\\&apos;; //反斜杠
+// byte b=12;
+// short s=120;
+// int i=1000;
+// long l=8000;
+// float f=1.234f;
+// double d=3.1415;
+// char c=&apos;国&apos;;
+// String str=&quot;Helloworld&quot;;</code></pre><p>//        char c = ‘A’;<br>//        short s = 80;<br>//        c = (char) s;<br>////        s = c;<br>//        long l=50;<br>//        int i=50;<br>//        l=i;<br>//        byte b=5;<br>//        int i1=10;<br>//        int i2=300;<br>//        b=(byte) i1;<br>//        System.out.println(b);</p>
+<p>//        b=(byte) i2;<br>//        System.out.println(b);<br>//        System.out.println(Integer.toBinaryString(i2));<br>//        short a=1;<br>//        short b=2;<br>//        float c=a+b;<br>//        System.out.println(c);<br>//        int a_;<br>//        int a@;<br>//        int a3;<br>//        int 8@;<br>//        int 9_;<br>//        int X$<em>;<br>//        int y;<br>//        int _$</em>;<br>//        int $<em>$;<br>//        int $*$;<br>//        int $1$;<br>//        int _1</em>;<br>//        int <em>@</em>;<br>//        int a#;<br>//        int a”;<br>//        int 123a”;<br>//        int 123a_;<br>//        int $123b_;<br>//<br>//<br>//    }<br>//}</p>
+<p>//public class HelloWorld{<br>//    int i=1;<br>//    public void method1(int i){<br>//        System.out.println(i);<br>//    }<br>//    public static void main(String[] args) {<br>//        new HelloWorld().method1(5);<br>//    }<br>//}<br>//public class HelloWorld{<br>//    public void method1(){<br>//        final int i;<br>//        i=10;<br>//        i=11;<br>//    }<br>//}<br>//public class HelloWorld{<br>//    public void method1(final int j){<br>//        j=5;<br>//    }<br>//}<br>//public class HelloWorld{<br>//    public static void main(String[] args) {<br>//<br>//        System.out.println(“abcd”);<br>//    }<br>//}<br>//public class HelloWorld{<br>//    public static void main(String[] args) {<br>//        int i=10;<br>//        int j=5;<br>//        int a=i+j;<br>//        int b=i-j;<br>//        int c=i*j;<br>//        int d=i/j;<br>//        System.out.println(a);<br>//    }<br>//<br>//}<br>//import java.util.Scanner;<br>//public class HelloWorld{<br>//    public static void main(String[] args) {<br>//        Scanner s=new Scanner(System.in);<br>//        int a=s.nextInt();<br>//        System.out.println(“第一个整数：”+a);<br>//        int b=s.nextInt();<br>//        System.out.println(“第二个整数：”+b);<br>//        int sum=a+b;<br>//        System.out.println(“两个数的和为：”+sum);<br>//    }<br>//}</p>
+<p>//public class HelloWorld{<br>//    public static void main(String[] args) {<br>//        int a=5;<br>//        long b=6;<br>//        int c=(int)(a+b);<br>//        long d=a+b;</p>
+<p>//        byte a=1;<br>//        byte b=2;<br>//        byte c=(byte)(a+b);<br>//        int d=a+b;</p>
+<p>//        int i=5;<br>//        int j=3;<br>//        System.out.println(i%j);</p>
+<p>//        int i=5;<br>//        i++;<br>//        System.out.println(i);</p>
+<p>//        int j=5;<br>//        System.out.println(++j);<br>//        System.out.println(j);</p>
+<p>//        int i=1;<br>//        int j=++i + i++ + ++i + i++;<br>//        System.out.println(j);<br>//<br>//    }<br>}</p>
+<p>import java.util.Scanner;<br>public class HelloWorld{<br>    public static void main(String[] args) {<br>        Scanner s=new Scanner(System.in);<br>        System.out.println(“请输入您的身高(单位m)：”);<br>//        float a=s.nextFloat();<br>        System.out.println(“身高为：”+a);<br>        System.out.println(“请输入您的体重(单位kg)：”);<br>        float b=s.nextFloat();<br>        System.out.println(“体重为：”+b);<br>        float bmi=b/(a*a);<br>        System.out.println(“当前的BMI是：”+bmi);<br>        if (bmi&lt;18.5)<br>            System.out.println(“体重偏轻！”);<br>        else if(18.5&lt;=bmi &amp; bmi&lt;24)<br>            System.out.println(“正常范围”);<br>        else if(24&lt;=bmi &amp; bmi&lt;27)<br>            System.out.println(“体重过重”);<br>        else if(27&lt;=bmi &amp; bmi&lt;30)<br>            System.out.println(“轻度肥胖”);<br>        else if(30&lt;=bmi &amp; bmi&lt;35)<br>            System.out.println(“中度肥胖”);<br>        else if(bmi&gt;35)<br>            System.out.println(“重度肥胖”);<br>    }<br>}<br>public class HelloWorld{<br>    public static void main(String[] args) {<br>        int a=5;<br>        int b=6;<br>        int c=5;<br>        System.out.println(a&gt;b);<br>        System.out.println(a&gt;=c);<br>        System.out.println(a==b);<br>        System.out.println(a!=b);<br>    }<br>}<br>import java.util.Scanner;<br>public class HelloWorld{<br>    public static void main(String[] args) {<br>        Scanner s=new Scanner(System.in);<br>        int a =s.nextInt();<br>        System.out.println(“第一个整数：”+a);<br>        int b=s.nextInt();<br>        System.out.println(“第二个整数：”+b);<br>        System.out.println(a&gt;b);<br>        System.out.println(a&gt;=b);<br>        System.out.println(a&lt;b);<br>        System.out.println(a==b);<br>        System.out.println(a!=b);<br>    }<br>}</p>
+<p>public class HelloWorld{<br>    public static void main(String[] args) {<br>        int i=2;<br>        System.out.println(i==1 &amp; i++ ==2);<br>        System.out.println(i);</p>
+<pre><code>    int j=2;
+    System.out.println(j==1 &amp;&amp; j++==2);
+    System.out.println(j);
+
+    int i=2;
+    System.out.println(i==1 | i++==2);
+    System.out.println(i);
+
+    int j=2;
+    System.out.println(j==2 || j++==2);
+    System.out.println(j);
+
+    boolean b=true;
+    System.out.println(b);
+    System.out.println(!b);
+
+    boolean a=true;
+    boolean b=false;
+
+    System.out.println(a^b);
+    System.out.println(a^!b);
+
+    int i=1;
+    boolean b=!(i++==3)^(i++==2)&amp;&amp;(i++==3);
+    System.out.println(b);
+    System.out.println(i);
+
+}</code></pre><p>}</p>
+<p>public class HelloWorld{<br>    public static void main(String[] args) {<br>        int i=5;<br>        int j=6;<br>        System.out.println(Integer.toBinaryString(i));<br>        System.out.println(Integer.toBinaryString(j));<br>        System.out.println(i|j);<br>        System.out.println(i&amp;j);<br>        System.out.println(“?????”);<br>        System.out.println(i^0);<br>        System.out.println(i^i);<br>        System.out.println(~i);<br>        System.out.println(i&lt;&lt;1);<br>        System.out.println(i&gt;&gt;1);<br>    }<br>}</p>
+<p>public class HelloWorld{<br>    public static void main(String[] args) {<br>        int i=5+5;<br>        System.out.println(i);<br>        int i=3;<br>        i+=2;<br>        System.out.println(i);<br>        int j=3;<br>        j=j+2;<br>        System.out.println(j);</p>
+<pre><code>    int i=1;
+    i+=++i;
+    System.out.println(i);
+}</code></pre><p>}</p>
+<p>import java.util.Scanner;<br>public class HelloWorld{<br>    public static void main(String[] args) {<br>        int i=5;<br>        int j=6;<br>        int k=i&lt;j? 99:88;<br>        int k;<br>        if (i&lt;j){<br>            k=99;<br>        }else{<br>            k=88;<br>        }<br>        System.out.println(k);<br>        System.out.println(“今天是周几？”);<br>        Scanner s=new Scanner(System.in);<br>        int a=s.nextInt();<br>        String k = a&gt;=1&amp;a&lt;=5? “今天是工作日”:”今天是周末”;<br>        System.out.println(k);<br>    }<br>}</p>
+<p>import java.util.Scanner;<br>public class HelloWorld{<br>    public static void main(String[] args) {<br>        Scanner s=new Scanner(System.in);<br>        int a=s.nextInt();<br>        System.out.println(“第一个整数：”+a);<br>        int b=s.nextInt();<br>        System.out.println(“第二个整数：”+b);</p>
+<pre><code>    float a=s.nextFloat();
+    System.out.println(&quot;读取的浮点数的值是：&quot;+a);
+
+    String a=s.nextLine();
+    System.out.println(&quot;读取的字符串是：&quot;+a);
+
+    int i=s.nextInt();
+    System.out.println(&quot;读取的整数是:&quot;+i);
+    String rn=s.nextLine();
+    String a=s.nextLine();
+    System.out.println(&quot;读取的字符串是：&quot;+a);
+
+}</code></pre><p>}</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/12/1%20java%E5%9F%BA%E7%A1%80---helloworld/" data-id="ck91h2ope000020wm83uw8no3" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/12/1%20java%E5%9F%BA%E7%A1%80---helloworld/" data-id="ck92wolw0000038wmcvo3b5zq" class="article-share-link">Share</a>
       
       
     </footer>
@@ -168,6 +278,10 @@
       <ul>
         
           <li>
+            <a href="/2020/04/16/5%20java%E5%9F%BA%E7%A1%80---%E6%8E%A7%E5%88%B6%E6%B5%81%E7%A8%8B/">5 java基础---控制流程</a>
+          </li>
+        
+          <li>
             <a href="/2020/04/15/hello-world/">Hello World</a>
           </li>
         
@@ -181,10 +295,6 @@
         
           <li>
             <a href="/2020/04/12/10%20java%E5%9F%BA%E7%A1%80---%E6%97%A5%E6%9C%9F/">java入门第一课</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/12/11%20java%E5%9F%BA%E7%A1%80---Java%E4%B9%A6%E7%B1%8D/">java入门第一课</a>
           </li>
         
       </ul>
