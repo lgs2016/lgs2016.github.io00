@@ -158,7 +158,102 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/11/5%20java%E5%9F%BA%E7%A1%80---%E6%8E%A7%E5%88%B6%E6%B5%81%E7%A8%8B/" data-id="ck945ttjn000bokwme84ybbvp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/11/5%20java%E5%9F%BA%E7%A1%80---%E6%8E%A7%E5%88%B6%E6%B5%81%E7%A8%8B/" data-id="ck94bx4ju000biwwma81le2c6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2 java基础---面向对象" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/13/2%20java%E5%9F%BA%E7%A1%80---%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" class="article-date">
+  <time datetime="2020-03-12T16:00:00.000Z" itemprop="datePublished">2020-03-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/java%E5%9F%BA%E7%A1%80/">java基础</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/13/2%20java%E5%9F%BA%E7%A1%80---%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/">2 java基础---面向对象</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="[HelloWorld]"></a>[HelloWorld]</h2><p>分别使用命令行和eclipse运行第一个 HelloWorld 程序</p>
+<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="[面向对象]"></a>[面向对象]</h2><p>设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫</p>
+<h2 id="变量"><a href="#变量" class="headerlink" title="[变量]"></a>[变量]</h2><p>变量类型，命名规则，类型转换<br>public class Hero {</p>
+<pre><code>// 设定类属性
+String name; // 姓名
+float hp; // 血量
+float armor; // 护甲
+int moveSpeed; // 移动速度
+
+// 获取护甲值
+float getArmor() {
+    return armor;
+}
+
+// 坑队友
+void keng() {
+    System.out.println(&quot;坑队友！&quot;);
+}
+
+// 增加移动速度
+void addSpeed(int speed) {
+    // 在原来的基础上增加移动速度
+    moveSpeed = moveSpeed + speed;
+}
+
+// 超神
+void legendary() {
+
+}
+
+// 获取血量
+float getHp() {
+    return hp;
+}
+
+// 回血
+void recovery(float blood) {
+    // 在原来的血量基础上加血
+    hp = hp + blood;
+}
+
+public static void main(String[] args) {
+    Hero garen = new Hero();
+    garen.name = &quot;盖伦&quot;;
+    garen.hp = 616.28f;
+    garen.armor = 27.536f;
+    garen.moveSpeed = 350;
+    garen.addSpeed(100);
+
+    Hero teemo = new Hero();
+    teemo.name = &quot;提莫&quot;;
+    teemo.hp = 385f;
+    teemo.armor = 14f;
+    teemo.moveSpeed = 330;
+}</code></pre><p>}</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/03/13/2%20java%E5%9F%BA%E7%A1%80---%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" data-id="ck94bx4jn0005iwwm17sf04a6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -275,50 +370,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/12/1%20java%E5%9F%BA%E7%A1%80---helloworld/" data-id="ck945ttj60001okwm1i616tol" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-2 java基础---面向对象" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/12/2%20java%E5%9F%BA%E7%A1%80---%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" class="article-date">
-  <time datetime="2020-03-11T16:00:00.000Z" itemprop="datePublished">2020-03-12</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/java%E5%9F%BA%E7%A1%80/">java基础</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/12/2%20java%E5%9F%BA%E7%A1%80---%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/">2 java基础---面向对象</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="HelloWorld"><a href="#HelloWorld" class="headerlink" title="[HelloWorld]"></a>[HelloWorld]</h2><p>分别使用命令行和eclipse运行第一个 HelloWorld 程序</p>
-<h2 id="面向对象"><a href="#面向对象" class="headerlink" title="[面向对象]"></a>[面向对象]</h2><p>设计一个LOL的英雄类，创建两个英雄对象，一个叫盖伦，一个叫提莫</p>
-<h2 id="变量"><a href="#变量" class="headerlink" title="[变量]"></a>[变量]</h2><p>变量类型，命名规则，类型转换</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/12/2%20java%E5%9F%BA%E7%A1%80---%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/" data-id="ck945ttje0005okwma2ixgxp9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/03/12/1%20java%E5%9F%BA%E7%A1%80---helloworld/" data-id="ck94bx4j60000iwwmg9zm9xcc" class="article-share-link">Share</a>
       
       
     </footer>
@@ -365,7 +417,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/01/python%E5%AD%A6%E4%B9%A0/" data-id="ck945ttk3000ookwm034fdb69" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/01/python%E5%AD%A6%E4%B9%A0/" data-id="ck94bx4ke000oiwwm06ncexsp" class="article-share-link">Share</a>
       
       
     </footer>
